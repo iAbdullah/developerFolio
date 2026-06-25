@@ -4,7 +4,7 @@
 */
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 // Splash Screen
 const splashScreen = {
@@ -17,7 +17,9 @@ const splashScreen = {
 const greeting = {
   username: "Abdullah Alshehri",
   title: "Hi all, I'm Abdullah",
-  subTitle: emoji("Artificial Intelligence & Machine Learning Graduate passionate about Data Engineering and Cloud AI solutions 🚀"),
+  subTitle: emoji(
+    "Artificial Intelligence & Machine Learning Graduate passionate about Data Engineering and Cloud AI solutions 🚀"
+  ),
   resumeLink: "", // ضع رابط سيرتك الذاتية هنا
   displayGreeting: true
 };
@@ -35,18 +37,24 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAVING TO ENGAGE WITH DATA AND COGNITIVE COMPUTING SYSTEMS",
   skills: [
-    emoji("⚡ Engineering end-to-end AI pipelines using PyTorch, TensorFlow, and AWS AI services"),
-    emoji("⚡ Implementing Generative AI solutions and fine-tuning LLMs on cloud infrastructure"),
+    emoji(
+      "⚡ Engineering end-to-end AI pipelines using PyTorch, TensorFlow, and AWS AI services"
+    ),
+    emoji(
+      "⚡ Implementing Generative AI solutions and fine-tuning LLMs on cloud infrastructure"
+    ),
     emoji("⚡ Cloud-based AI deployment and orchestration using AWS ecosystem"),
-    emoji("⚡ Automating complex data pipelines and building intelligent financial analytics")
+    emoji(
+      "⚡ Automating complex data pipelines and building intelligent financial analytics"
+    )
   ],
   softwareSkills: [
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "pytorch", fontAwesomeClassname: "fas fa-brain" },
-    { skillName: "tensorflow", fontAwesomeClassname: "fas fa-code-branch" },
-    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" }
+    {skillName: "python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "aws", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "pytorch", fontAwesomeClassname: "fas fa-brain"},
+    {skillName: "tensorflow", fontAwesomeClassname: "fas fa-code-branch"},
+    {skillName: "docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "git", fontAwesomeClassname: "fab fa-git-alt"}
   ],
   display: true
 };
@@ -57,11 +65,14 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Jeddah",
-      logo: null, 
-      subHeader: "Bachelor of Science in Artificial Intelligence and Machine Learning",
+      logo: null,
+      subHeader:
+        "Bachelor of Science in Artificial Intelligence and Machine Learning",
       duration: "2019 - 2024",
       desc: "Regular full-time attendance program focusing on AI, ML, and Data Engineering.",
-      descBullets: ["Graduation Project: Blind Guide (AI assistive application)"]
+      descBullets: [
+        "Graduation Project: Blind Guide (AI assistive application)"
+      ]
     }
   ]
 };
@@ -73,7 +84,8 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "AWS Certified AI Practitioner",
-      subtitle: "Cloud-based Artificial Intelligence & Machine Learning Specialization",
+      subtitle:
+        "Cloud-based Artificial Intelligence & Machine Learning Specialization",
       image: null,
       imageAlt: "AWS Logo",
       footerLink: []
@@ -106,7 +118,10 @@ const workExperiences = {
       companylogo: null,
       date: "2025 - Present",
       desc: "Developing FinBrain-OS and AI-powered assistive tools like Blind Guide.",
-      descBullets: ["Built AI pipelines", "TensorFlow & FastAPI implementations"]
+      descBullets: [
+        "Built AI pipelines",
+        "TensorFlow & FastAPI implementations"
+      ]
     }
   ]
 };
