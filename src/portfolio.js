@@ -28,8 +28,9 @@ const greeting = {
 // Social Media Links
 const socialMediaLinks = {
   github: "https://github.com/iAbdullah",
-  linkedin: "https://www.linkedin.com/in/iabdullah/",
-  gmail: "abdullah.alshehri@email.com",
+  linkedin: "https://www.linkedin.com/in/abdullah-alshehri-a386a2278/?skipRedirect=true",
+  gmail: "abdullahalshahri22@gmail.com
+",
   display: true
 };
 
