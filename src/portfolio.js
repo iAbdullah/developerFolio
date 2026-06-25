@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+/* Personal Portfolio Configuration */
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation";
@@ -10,146 +10,250 @@ const splashScreen = {
   duration: 2000
 };
 
-// Summary And Greeting Section
+// Illustration
 const illustration = {
   animated: true
 };
 
+// Greeting
 const greeting = {
-  username: "Abdullah Alshehri",
-  title: "Hi all, I'm Abdullah",
+  username: "Abdullah Alshahri",
+  title: "Artificial Intelligence Specialist | Data Engineer | Generative AI Enthusiast",
   subTitle: emoji(
-    "Artificial Intelligence & Machine Learning Graduate passionate about Data Engineering and Cloud AI solutions 🚀"
+    "Artificial Intelligence graduate from the University of Jeddah with hands-on experience in Machine Learning, Data Engineering, Computer Vision, LLM Fine-Tuning, and Cloud AI solutions. Passionate about building intelligent systems that solve real-world problems. 🚀"
   ),
-  resumeLink: "", 
+  resumeLink: "",
   displayGreeting: true
 };
 
-// Social Media Links
+// Social Links
 const socialMediaLinks = {
   github: "https://github.com/iAbdullah",
-  linkedin: "https://www.linkedin.com/in/abdullah-alshehri-a386a2278/?skipRedirect=true",
-  gmail: "abdullahalshahri22@gmail.com
-",
+  linkedin:
+    "https://www.linkedin.com/in/abdullah-alshehri-a386a2278/",
+  gmail: "abdullahalshahri22@gmail.com",
   display: true
 };
 
-// Skills Section
+// Skills
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAVING TO ENGAGE WITH DATA AND COGNITIVE COMPUTING SYSTEMS",
+  title: "What I Do",
+  subTitle:
+    "ARTIFICIAL INTELLIGENCE SPECIALIST FOCUSED ON BUILDING INTELLIGENT SOLUTIONS",
+
   skills: [
-    emoji("⚡ Engineering end-to-end AI pipelines using PyTorch, TensorFlow, and AWS AI services"),
-    emoji("⚡ Implementing Generative AI solutions and fine-tuning LLMs on cloud infrastructure"),
-    emoji("⚡ Automating complex data pipelines and building intelligent financial analytics")
+    emoji(
+      "⚡ Building Machine Learning and Deep Learning solutions using Python, TensorFlow and PyTorch"
+    ),
+    emoji(
+      "⚡ Developing Computer Vision and AI-powered applications for real-world use cases"
+    ),
+    emoji(
+      "⚡ Creating Data Pipelines, Cloud AI Solutions, and Generative AI Applications"
+    )
   ],
+
   softwareSkills: [
-    { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "pytorch", fontAwesomeClassname: "fas fa-brain" },
-    { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "sql", fontAwesomeClassname: "fas fa-database" }
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    }
   ],
+
   display: true
 };
 
-// Education Section
+// Education
 const educationInfo = {
   display: true,
+
   schools: [
     {
       schoolName: "University of Jeddah",
       logo: null,
-      subHeader: "Bachelor of Science in Artificial Intelligence and Machine Learning",
+      subHeader:
+        "Bachelor of Science in Artificial Intelligence",
       duration: "2019 - 2024",
-      desc: "Regular full-time attendance program focusing on AI, ML, and Data Engineering.",
-      descBullets: ["Graduation Project: Blind Guide (AI assistive application)"]
+      desc:
+        "Graduate of the Artificial Intelligence Program with strong foundations in Machine Learning, Computer Vision, NLP, Data Engineering, and Intelligent Systems.",
+      descBullets: [
+        "Graduation Project: Blind Guide",
+        "Specialized in AI & Machine Learning"
+      ]
     }
   ]
 };
 
-// Tech Stack
+// Skills Progress
 const techStack = {
   viewSkillBars: true,
+
   experience: [
-    { Stack: "Artificial Intelligence", progressPercentage: "95%" },
-    { Stack: "Data Engineering", progressPercentage: "85%" },
-    { Stack: "Cloud Computing", progressPercentage: "80%" }
+    {
+      Stack: "Artificial Intelligence",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Machine Learning",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Data Engineering",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Cloud Computing",
+      progressPercentage: "80%"
+    }
   ],
+
   displayCodersrank: false
 };
 
-// Work experience section
+// Experience
 const workExperiences = {
   display: true,
+
   experience: [
     {
-      role: "AI Graduate & Developer",
-      company: "University of Jeddah / Projects",
+      role: "Artificial Intelligence Specialist",
+      company: "University of Jeddah",
+      companylogo: null,
+      date: "2024",
+      desc:
+        "Developed AI-driven solutions and intelligent systems as part of academic and practical projects.",
+      descBullets: [
+        "Blind Guide AI Project",
+        "Machine Learning Model Development",
+        "Computer Vision Applications"
+      ]
+    },
+    {
+      role: "AI Professional Bootcamp Trainee",
+      company: "SDAIA Academy",
       companylogo: null,
       date: "2025 - Present",
-      desc: "Developing FinBrain-OS and AI-powered assistive tools like Blind Guide.",
-      descBullets: ["Built AI pipelines", "TensorFlow & FastAPI implementations"]
+      desc:
+        "Participating in advanced AI training covering Python, LLMs, Data Engineering, and Cloud AI technologies."
     }
   ]
 };
 
+// Open Source
 const openSource = {
-  showGithubProfile: "true",
+  showGithubProfile: true,
   display: true
 };
 
+// Projects
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "AI AND DATA SYSTEMS",
+  title: "Featured Projects",
+  subtitle: "AI PROJECTS AND INTELLIGENT SYSTEMS",
+
   projects: [
     {
       image: null,
       projectName: "Blind Guide",
-      projectDesc: "AI-powered assistive application using computer vision.",
+      projectDesc:
+        "AI-powered navigation assistant for visually impaired users using Computer Vision, NLP, Sensors, Neural Networks, and Flutter.",
       footerLink: []
     },
     {
       image: null,
       projectName: "FinBrain-OS",
-      projectDesc: "Financial management system built with FastAPI and Pydantic.",
+      projectDesc:
+        "Intelligent financial management platform leveraging FastAPI, AI analytics, and data-driven decision making.",
       footerLink: []
     }
   ],
+
   display: true
 };
 
-// Achievement Section
+// Achievements
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Professional Licenses and International Certifications",
+  title: emoji("Achievements & Certifications 🏆"),
+  subtitle:
+    "Professional Certifications and Technical Achievements",
+
   achievementsCards: [
     {
-      title: "AWS Certified AI Practitioner",
-      subtitle: "Cloud-based Artificial Intelligence Specialization",
+      title: "HCIA-AI",
+      subtitle:
+        "Huawei Certified Artificial Intelligence Associate",
       image: null,
-      imageAlt: "AWS Logo",
+      imageAlt: "HCIA-AI",
+      footerLink: []
+    },
+    {
+      title: "HCIA-Security",
+      subtitle:
+        "Huawei Certified Security Associate",
+      image: null,
+      imageAlt: "HCIA Security",
+      footerLink: []
+    },
+    {
+      title: "SAS Certified Data Scientist",
+      subtitle:
+        "Professional Certification in Data Science",
+      image: null,
+      imageAlt: "SAS",
+      footerLink: []
+    },
+    {
+      title: "Microsoft Office Specialist (MOS)",
+      subtitle:
+        "Microsoft Office Productivity Certification",
+      image: null,
+      imageAlt: "MOS",
       footerLink: []
     }
   ],
+
   display: true
 };
 
+// Blog
 const blogSection = {
   title: "Blogs",
-  subtitle: "Technical insights and AI developments.",
-  displayMediumBlogs: "false",
+  subtitle: "AI, Machine Learning and Data Engineering",
+  displayMediumBlogs: false,
   blogs: [],
   display: false
 };
 
+// Talks
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("Sharing knowledge in AI and Data Science"),
+  subtitle: emoji(
+    "Sharing knowledge and experience in AI and Technology"
+  ),
   talks: [],
   display: false
 };
 
+// Podcast
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "",
@@ -157,24 +261,29 @@ const podcastSection = {
   display: false
 };
 
+// Resume
 const resumeSection = {
   title: "Resume",
   subtitle: "Download my resume",
   display: true
 };
 
+// Contact
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "My Inbox is always open.",
-  number: "",
-  email_address: "abdullah.alshehri@email.com"
+  subtitle:
+    "Feel free to contact me regarding opportunities, projects, or collaboration.",
+  number: "+966538278138",
+  email_address: "abdullahalshahri22@gmail.com"
 };
 
+// Twitter
 const twitterDetails = {
-  userName: "twitter",
+  userName: "",
   display: false
 };
 
+// Hireable
 const isHireable = true;
 
 export {
