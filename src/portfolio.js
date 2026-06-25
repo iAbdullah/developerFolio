@@ -5,29 +5,30 @@
 */
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 const splashScreen = {
-  enabled: true, 
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 
+  duration: 2000
 };
 
-const illustration = { animated: true };
+const illustration = {animated: true};
 
 const greeting = {
   username: "Abdullah Alshehri",
   title: "Hello, I'm Abdullah",
-  subTitle: "A dedicated Artificial Intelligence & Machine Learning Engineer specializing in designing end-to-end intelligent architectures, fine-tuning Large Language Models (LLMs), and engineering robust, scalable data pipelines.",
+  subTitle:
+    "A dedicated Artificial Intelligence & Machine Learning Engineer specializing in designing end-to-end intelligent architectures, fine-tuning Large Language Models (LLMs), and engineering robust, scalable data pipelines.",
   resumeLink: "", // ضع رابط سيرتك الذاتية هنا
-  displayGreeting: true 
+  displayGreeting: true
 };
 
 const socialMediaLinks = {
   github: "https://github.com/iAbdullah",
   linkedin: "https://linkedin.com/in/abdullah-alshehri",
   gmail: "abdullahalshahri22@gmail.com",
-  display: true 
+  display: true
 };
 
 const skillsSection = {
@@ -41,17 +42,17 @@ const skillsSection = {
   ],
 
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "SQL Databases", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" }
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "SQL Databases", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"}
   ],
-  display: true 
+  display: true
 };
 
 const educationInfo = {
-  display: true, 
+  display: true,
   schools: [
     {
       schoolName: "University of Jeddah",
@@ -64,17 +65,20 @@ const educationInfo = {
 };
 
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   experience: [
-    { Stack: "Artificial Intelligence / Machine Learning", progressPercentage: "95%" },
-    { Stack: "Data Engineering", progressPercentage: "90%" },
-    { Stack: "Cloud & Infrastructure", progressPercentage: "80%" }
+    {
+      Stack: "Artificial Intelligence / Machine Learning",
+      progressPercentage: "95%"
+    },
+    {Stack: "Data Engineering", progressPercentage: "90%"},
+    {Stack: "Cloud & Infrastructure", progressPercentage: "80%"}
   ],
-  displayCodersrank: false 
+  displayCodersrank: false
 };
 
 const workExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Artificial Intelligence Professional Trainee",
@@ -98,31 +102,35 @@ const workExperiences = {
 };
 
 const openSource = {
-  showGithubProfile: "true", 
-  display: true 
+  showGithubProfile: "true",
+  display: true
 };
 
 const bigProjects = {
   title: "Featured Projects",
-  subtitle: "INNOVATIVE SYSTEMS BRIDGING COGNITIVE COMPUTING WITH REAL-WORLD APPLICATIONS",
+  subtitle:
+    "INNOVATIVE SYSTEMS BRIDGING COGNITIVE COMPUTING WITH REAL-WORLD APPLICATIONS",
   projects: [
     {
       projectName: "StockVision",
-      projectDesc: "An AI-powered platform designed to analyze Saudi stock market trends and accurately predict price movements utilizing advanced machine learning models.",
+      projectDesc:
+        "An AI-powered platform designed to analyze Saudi stock market trends and accurately predict price movements utilizing advanced machine learning models.",
       footerLink: []
     },
     {
       projectName: "Blind Guide (BG)",
-      projectDesc: "A specialized computer vision system built to assist visually impaired navigation, developed using Faster R-CNN, TensorFlow Lite, and FastAPI.",
+      projectDesc:
+        "A specialized computer vision system built to assist visually impaired navigation, developed using Faster R-CNN, TensorFlow Lite, and FastAPI.",
       footerLink: []
     },
     {
       projectName: "EduLensAR",
-      projectDesc: "A Mixed Reality educational platform developed with Unity and ARCore, demonstrated to increase STEM learning retention by 70%.",
+      projectDesc:
+        "A Mixed Reality educational platform developed with Unity and ARCore, demonstrated to increase STEM learning retention by 70%.",
       footerLink: []
     }
   ],
-  display: true 
+  display: true
 };
 
 const achievementSection = {
@@ -145,17 +153,28 @@ const achievementSection = {
       footerLink: []
     }
   ],
-  display: true 
+  display: true
 };
 
 const contactInfo = {
   title: "Contact Me",
-  subtitle: "Feel free to reach out for collaborations or professional inquiries.",
+  subtitle:
+    "Feel free to reach out for collaborations or professional inquiries.",
   number: "+966538278138",
   email_address: "abdullahalshahri22@gmail.com"
 };
 
 export {
-  illustration, greeting, socialMediaLinks, splashScreen, skillsSection, educationInfo, 
-  techStack, workExperiences, openSource, bigProjects, achievementSection, contactInfo
+  illustration,
+  greeting,
+  socialMediaLinks,
+  splashScreen,
+  skillsSection,
+  educationInfo,
+  techStack,
+  workExperiences,
+  openSource,
+  bigProjects,
+  achievementSection,
+  contactInfo
 };
