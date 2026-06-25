@@ -6,8 +6,6 @@
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; 
 
-// ... (الإعدادات السابقة كما هي)
-
 // تحديث المهارات لتشمل AWS AI
 const skillsSection = {
   title: "What I do",
@@ -38,7 +36,7 @@ const achievementSection = {
     {
       title: "AWS Certified AI Practitioner",
       subtitle: "Cloud-based Artificial Intelligence & Machine Learning Specialization",
-      image: null,
+      image: require("./assets/images/awsLogo.png"),
       imageAlt: "AWS Logo",
       footerLink: []
     },
@@ -59,5 +57,3 @@ const achievementSection = {
   ],
   display: true 
 };
-
-// ... (بقية الكود يظل كما هو)
