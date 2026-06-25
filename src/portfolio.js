@@ -18,7 +18,8 @@ const illustration = {
 // Greeting
 const greeting = {
   username: "Abdullah Alshahri",
-  title: "Artificial Intelligence Specialist | Data Engineer | Generative AI Enthusiast",
+  title:
+    "Artificial Intelligence Specialist | Data Engineer | Generative AI Enthusiast",
   subTitle: emoji(
     "Artificial Intelligence graduate from the University of Jeddah with hands-on experience in Machine Learning, Data Engineering, Computer Vision, LLM Fine-Tuning, and Cloud AI solutions. Passionate about building intelligent systems that solve real-world problems. 🚀"
   ),
@@ -29,8 +30,7 @@ const greeting = {
 // Social Links
 const socialMediaLinks = {
   github: "https://github.com/iAbdullah",
-  linkedin:
-    "https://www.linkedin.com/in/abdullah-alshehri-a386a2278/",
+  linkedin: "https://www.linkedin.com/in/abdullah-alshehri-a386a2278/",
   gmail: "abdullahalshahri22@gmail.com",
   display: true
 };
@@ -91,11 +91,9 @@ const educationInfo = {
     {
       schoolName: "University of Jeddah",
       logo: null,
-      subHeader:
-        "Bachelor of Science in Artificial Intelligence",
+      subHeader: "Bachelor of Science in Artificial Intelligence",
       duration: "2019 - 2024",
-      desc:
-        "Graduate of the Artificial Intelligence Program with strong foundations in Machine Learning, Computer Vision, NLP, Data Engineering, and Intelligent Systems.",
+      desc: "Graduate of the Artificial Intelligence Program with strong foundations in Machine Learning, Computer Vision, NLP, Data Engineering, and Intelligent Systems.",
       descBullets: [
         "Graduation Project: Blind Guide",
         "Specialized in AI & Machine Learning"
@@ -140,8 +138,7 @@ const workExperiences = {
       company: "University of Jeddah",
       companylogo: null,
       date: "2024",
-      desc:
-        "Developed AI-driven solutions and intelligent systems as part of academic and practical projects.",
+      desc: "Developed AI-driven solutions and intelligent systems as part of academic and practical projects.",
       descBullets: [
         "Blind Guide AI Project",
         "Machine Learning Model Development",
@@ -153,8 +150,7 @@ const workExperiences = {
       company: "SDAIA Academy",
       companylogo: null,
       date: "2025 - Present",
-      desc:
-        "Participating in advanced AI training covering Python, LLMs, Data Engineering, and Cloud AI technologies."
+      desc: "Participating in advanced AI training covering Python, LLMs, Data Engineering, and Cloud AI technologies."
     }
   ]
 };
@@ -193,38 +189,33 @@ const bigProjects = {
 // Achievements
 const achievementSection = {
   title: emoji("Achievements & Certifications 🏆"),
-  subtitle:
-    "Professional Certifications and Technical Achievements",
+  subtitle: "Professional Certifications and Technical Achievements",
 
   achievementsCards: [
     {
       title: "HCIA-AI",
-      subtitle:
-        "Huawei Certified Artificial Intelligence Associate",
+      subtitle: "Huawei Certified Artificial Intelligence Associate",
       image: null,
       imageAlt: "HCIA-AI",
       footerLink: []
     },
     {
       title: "HCIA-Security",
-      subtitle:
-        "Huawei Certified Security Associate",
+      subtitle: "Huawei Certified Security Associate",
       image: null,
       imageAlt: "HCIA Security",
       footerLink: []
     },
     {
       title: "SAS Certified Data Scientist",
-      subtitle:
-        "Professional Certification in Data Science",
+      subtitle: "Professional Certification in Data Science",
       image: null,
       imageAlt: "SAS",
       footerLink: []
     },
     {
       title: "Microsoft Office Specialist (MOS)",
-      subtitle:
-        "Microsoft Office Productivity Certification",
+      subtitle: "Microsoft Office Productivity Certification",
       image: null,
       imageAlt: "MOS",
       footerLink: []
@@ -246,9 +237,7 @@ const blogSection = {
 // Talks
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "Sharing knowledge and experience in AI and Technology"
-  ),
+  subtitle: emoji("Sharing knowledge and experience in AI and Technology"),
   talks: [],
   display: false
 };
